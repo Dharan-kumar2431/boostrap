@@ -3,8 +3,8 @@
     font-family: Arial;
 }
 
-.container-sm {
-    width: 1010px;
+.moqups {
+    font-weight: bold;
 }
 
 
@@ -37,14 +37,27 @@
     left: 10px;
 }
 
+.primary-maincontainer {
+    height: 300px;
+    background-color: #e1eaea;
+}
+
 .primary-container {
     font-size: 35px;
     text-align: center;
     padding-top: 100px;
 }
 
+.container {
+    background-color: white;
+}
+
+.form {
+    height: 120px;
+}
+
 .input {
-    margin-left: 500px;
+    margin-left: 400px;
     border-radius: 25px;
     border: none;
     border: 2px solid gray;
@@ -58,8 +71,17 @@
     border-radius: 3px;
 }
 
+.maindiv1 {
+    height: 400px;
+}
+
+.submaindiv1 {
+    height: 380px;
+    background-color: #58616a;
+}
+
 .div1 {
-    font-size: 40px;
+    font-size: 35px;
     padding: 195px 20px 0px 28px;
     color: white;
 }
@@ -70,11 +92,25 @@
     color: white;
 }
 
+.maindiv2 {
+    height: 380px;
+}
+
+.submaindiv2 {
+    height: 180px;
+    background-color: #58616a;
+}
+
 .div2 {
     padding-top: 130px;
     text-align: center;
     font-size: 30px;
     color: white;
+}
+
+.maindiv3 {
+    height: 180px;
+    background-color: #58616a;
 }
 
 .div3 {
@@ -83,4 +119,28 @@
     padding-bottom: 10px;
     text-align: center;
     color: white;
+}
+
+.image {
+    height: 170px;
+}
+
+.paragraph {
+    font-size: 20px;
+}
+
+.mainbutton {
+    height: 100px;
+}
+
+.subbutton {
+    height: 40px;
+    background-color: white;
+}
+
+.logout {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 150px;
 }
